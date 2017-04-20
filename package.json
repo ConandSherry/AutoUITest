@@ -1,0 +1,20 @@
+{
+  "name": "debug-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor -n exit --harmony index.js",
+    "save": "node --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "global": "https://registry.npm.taobao.org/global/download/global-4.3.1.tgz",
+    "html-to-vdom": "^0.7.0",
+    "phantom": "^4.0.1",
+    "virtual-dom": "^2.1.1",
+    "x-is-array": "https://registry.npm.taobao.org/x-is-array/download/x-is-array-0.1.0.tgz"
+  }
+}

@@ -1,3 +1,4 @@
+
 let node = function(currentNode) {
     this.tagName = currentNode.tagName.toLowerCase();
     this.style = "";
